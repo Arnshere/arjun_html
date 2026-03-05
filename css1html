@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <style>
+        #para {
+            color: teal;
+            background-color: black;
+            font-size: 50px;
+        }
+
+        .demo {
+            color: cyan;
+            background-color: violet;
+            font-size: 30px;
+        }
+
+        * {
+            color: rgb(99, 71, 242);
+            background-color: rgb(155, 201, 239);
+            font-size: 30px;
+          } 
+
+        .p1 {
+           font-weight:200; 
+           text-transform:lowercase ;
+          } 
+        .p2 {
+           font-weight:400; 
+           text-transform:uppercase;
+          } 
+        .p3 {
+           font-weight:600; 
+           text-transform:capitalize;
+          } 
+       .p4 {
+           font-weight:bold; 
+           text-transform:bold;
+          } 
+        h1{ 
+            text-decoration: overline;
+        }
+        h2{ 
+            text-decoration: line-through;
+        }
+        h3{ 
+            text-decoration:underline;
+        }
+        h4{ 
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body <p id="para">Hello. This is an example of id selector</p>
+    <h1 class="demo">
+        welcome to clam selector
+    </h1>
+    <p class="demo">
+        hello.this is an example clam selector
+    </p>
+    <h1>
+        welcome to class selector
+    </h1>
+    <p>
+        Hello this is an example selector
+    </p>
+<p class="p1">paragraph1</p>
+<p class="p2">paragraph2</p>
+<p class="p3">paragraph3</p>
+<p class="p4">paragraph4</p>
+
+<h1>heading1</h1>
+<h2>heading1</h2>
+<h3>heading1</h3>
+<a href="#">Link</a>
+
+</body>
+
+</html>
