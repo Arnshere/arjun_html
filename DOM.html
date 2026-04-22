@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+ .alert{
+color:aqua;
+background:green;
+paddding: 5px;
+}
+</style>
+</head>
+<body>
+   <h1 id="heading">welcome</h1>
+<p>how are u</p>
+<p>hello</p>
+<script>
+let div= document.createElement('div');
+div.id="paragraph";
+div.classname="alert";
+div.innerHTML ="<p> congrats! u have created a div. <p>";
+document.body.append(div);
+
+let heading=document.getElementById("heading");
+heading.innerHTML = '&#128512;'
+
+
+document.querySelector('header p'). innerHTML = "<strong>good job!<strong>";
+</script>
+
+</body>
+
+
+</html>
